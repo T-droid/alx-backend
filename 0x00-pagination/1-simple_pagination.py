@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 """definition of Server and index_range"""
 import csv
 import math

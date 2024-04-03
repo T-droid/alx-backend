@@ -1,12 +1,10 @@
 #!/usr/bin/env python3
 """this is a basic cache system with a dictionary"""
 from base_caching import BaseCaching
-from numpy import Infinity
 
 
 class BasicCache(BaseCaching):
     """impliments a basic caching system"""
-    MAX_ITEMS = Infinity
 
     def __init__(self):
         """initialisation part"""

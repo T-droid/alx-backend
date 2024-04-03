@@ -18,7 +18,7 @@ class BasicCache(BaseCaching):
             pass
         else:
             self.cache_data[key] = item
-    
+
     def get(self, key):
         """gets the value of the key"""
         if key is None:
@@ -27,4 +27,3 @@ class BasicCache(BaseCaching):
             return self.cache_data[key]
         except Exception as e:
             return None
-
